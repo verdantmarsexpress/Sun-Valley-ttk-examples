@@ -285,8 +285,7 @@ if __name__ == "__main__":
     root.title("Simple example")
 
     # Simply set the theme
-    root.tk.call("source", "sun-valley.tcl")
-    root.tk.call("set_theme", "light")
+    sv_ttk.set_theme("light")
 
     app = App(root)
     app.pack(fill="both", expand=True)
